@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+}
+header #myprofile-link {
+  float: right;
+}
+.container {
+  margin: auto;
+  width: 960px; 
+}
+.page {
+  margin: 10px 0 10px 0;
+}
+.submenu {
+  width: 200px;
+  float: left;
+}
+.content {
+  width: 460px;
+  float: left;
+}
+#main {
+  display: table;
+  width: 100%;
+}
+#friends-list {
+  display: table-cell;
+  width: 30%;
+}
+#game-container {
+  display: table-cell;
+  width: 70%;
+}
+#friends-list ul {
+  padding: 0;
+}
